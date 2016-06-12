@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController1.h
 //  无限轮播
 //
 //  Created by 刘浩浩 on 16/6/12.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TopScrollView.h"
-@interface ViewController : UIViewController
 
-@property(nonatomic,strong)TopScrollView *topScrollView;
-
+@interface ViewController1 : UIViewController
+@property(nonatomic,strong)NSString *webLink;
 @end
-
