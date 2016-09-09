@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   s.source_files  = "LHHTopScrollView/*"
 
 
-  s.resources = "LHHTopScrollView/*.png"
 
   s.framework  = "UIKit"
   s.requires_arc = true
