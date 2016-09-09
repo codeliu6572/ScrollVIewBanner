@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LHHTopScrollView"
-  s.version      = "0.0.1"
+  s.version      = “1.0.1”
   s.summary      = "A banner for iOS."
 
   s.homepage     = "http://blog.csdn.net/codingfire/article/details/52470802"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.author       = { "codeliu6572" => "codeliu6572@163.com" }
 
-  s.source       = { :git => "https://github.com/codeliu6572/ScrollVIewBanner.git", :tag => '0.0.1' }
+  s.source       = { :git => "https://github.com/codeliu6572/ScrollVIewBanner.git", :tag => '1.0.1' }
 
 
  
