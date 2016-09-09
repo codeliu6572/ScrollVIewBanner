@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
 
  
-  s.source_files  = 'LHHTopScrollView/*'
+  s.source_files  = 'LHHTopScrollView/*.{h,m}'
 
 
   s.resources = "LHHTopScrollView/*.png"
