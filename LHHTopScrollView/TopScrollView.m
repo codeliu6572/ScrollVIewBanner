@@ -9,7 +9,8 @@
 #import "TopScrollView.h"
 #import "DataModel.h"
 #import "UIImageView+WebCache.h"
-
+#define WIDTH [[[UIApplication sharedApplication] delegate] window].frame.size.width
+#define HEIGHT [[[UIApplication sharedApplication] delegate] window].frame.size.height
 
 @implementation TopScrollView
 {
