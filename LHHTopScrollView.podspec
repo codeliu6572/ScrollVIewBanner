@@ -23,5 +23,10 @@ Pod::Spec.new do |s|
 
 
   s.resources = "LHHTopScrollView/*.png"
+
+  s.framework  = "UIKit/UIKit.h"
   s.requires_arc = true
+
+  s.dependency "SDWebImage"
+
 end
