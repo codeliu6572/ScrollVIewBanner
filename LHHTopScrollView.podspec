@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
  
   s.license      = "MIT"
 
-
+  s.platform     = :ios, '7.0'
   s.author       = { "codeliu6572" => "codeliu6572@163.com" }
 
   s.source       = { :git => "https://github.com/codeliu6572/ScrollVIewBanner.git", :tag => "0.0.1" }
