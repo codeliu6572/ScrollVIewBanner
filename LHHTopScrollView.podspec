@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
 
-  s.author             = { "codeliu6572" => "codeliu6572@163.com" }
+  s.author       = { "codeliu6572" => "codeliu6572@163.com" }
 
   s.source       = { :git => "https://github.com/codeliu6572/ScrollVIewBanner.git", :tag => "0.0.1" }
 
@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
 
   s.resources = "LHHTopScrollView/*.png"
 
-  s.framework  = "UIKit/UIKit.h"
+  s.framework  = "UIKit"
   s.requires_arc = true
 
-  s.dependency "SDWebImage"
+  s.dependency 'SDWebImage'
 
 end
