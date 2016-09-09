@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     UIWebView *webView=[[UIWebView alloc]initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT)];
     NSURLRequest *request=[[NSURLRequest alloc]initWithURL:[NSURL URLWithString:_webLink]];
     [webView loadRequest:request];

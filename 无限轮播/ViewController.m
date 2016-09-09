@@ -42,7 +42,7 @@
     _topScrollView.delegate=self;
     [self.view addSubview:_topScrollView];
 }
-
+#
 -(void)didClickScrollViewWithIndex:(NSInteger)index
 {
     NSString *webLink=((DataModel *)[_dataArray objectAtIndex:index]).webLink;
